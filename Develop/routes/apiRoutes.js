@@ -1,9 +1,6 @@
 const router = require('express').Router();
 const store = require('../db/store');
 const { v1: uuidv1 } = require('uuid');
-
-// Your code using uuidv1 remains the same.
-// For example:
 const myUuid = uuidv1();
 
 // This gets all the notes
